@@ -4,6 +4,10 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.InputSystem;
 
+//I did not figure out a way for the input system to only be activited by pressing the button, nor did I figure out
+//how or why it would not add any values to my list, even when changing the values to constant numbers.
+//Because of reoccuring problems with my phone, it did not allow me to test the app to check if it actually
+//activated the accelerometer. There were multiple problems in this assignment, the abovementioned are only a few.
 
 public class ButtonTouch : MonoBehaviour
 {
@@ -80,7 +84,6 @@ public class ButtonTouch : MonoBehaviour
     //code from https://riptutorial.com/unity3d/example/12420/read-accelerometer-sensor-precision- 
     Vector3 preciseAccelValue()
     {
-        //what is this even
         Vector3 accelResult = Vector3.zero;
         for (int i = 0; i < Input.accelerationEventCount; ++i)
         {
@@ -102,7 +105,7 @@ public class ButtonTouch : MonoBehaviour
             isPressed = false;
         }
         Vector3 accelValue = preciseAccelValue();
-        AccelInfoList.Add(Vector3.up);
+        AccelInfoList.Add(accelValue);
         Debug.Log("test");
         WriteCSV();
 

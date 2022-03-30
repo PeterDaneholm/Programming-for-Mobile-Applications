@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+//From provided tutorial
 [DefaultExecutionOrder(-1)]
 public class InputManager : SingletonClass<InputManager>
 {
