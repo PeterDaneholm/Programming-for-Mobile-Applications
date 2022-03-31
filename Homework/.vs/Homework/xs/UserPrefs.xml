@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ButtonTouch.cs">
     <Files>
       <File FileName="Assets/ButtonTakeTwo.cs" Line="11" Column="29" />
-      <File FileName="Assets/Tutorial Test/TestTouch.cs" Line="4" Column="2" />
-      <File FileName="Assets/Tutorial Test/InputManager.cs" Line="4" Column="25" />
-      <File FileName="Assets/ButtonTouch.cs" Line="80" Column="10" />
+      <File FileName="Assets/Tutorial Test/TestTouch.cs" />
+      <File FileName="Assets/Tutorial Test/InputManager.cs" />
+      <File FileName="Assets/ButtonTouch.cs" Line="10" Column="104" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="Homework" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Tutorial Test" expanded="True" />
-              <Node name="ButtonTouch.cs" selected="True" />
+              <Node name="ButtonTakeTwo.cs" selected="True" />
             </Node>
           </Node>
         </State>

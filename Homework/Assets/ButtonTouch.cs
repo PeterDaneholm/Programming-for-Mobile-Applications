@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 //I did not figure out a way for the input system to only be activited by pressing the button, nor did I figure out
 //how or why it would not add any values to my list, even when changing the values to constant numbers.
 //Because of reoccuring problems with my phone, it did not allow me to test the app to check if it actually
-//activated the accelerometer. There were multiple problems in this assignment, the abovementioned are only a few.
+//activated the accelerometer. These were just a few of the problems I encountered with this assignment.
 
 public class ButtonTouch : MonoBehaviour
 {
